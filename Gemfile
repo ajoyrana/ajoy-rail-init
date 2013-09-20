@@ -26,7 +26,8 @@ gem 'jquery-rails'
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
-# gem 'jbuilder'
+#gem 'jbuilder'
+gem 'jbuilder', '~> 1.2'
 
 # Use unicorn as the app server
 # gem 'unicorn'
@@ -36,3 +37,17 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+# ajoy-rail-init
+gem 'activerecord-tableless'
+gem 'bootstrap-sass', '~> 2.3.2.2'
+gem 'figaro'
+gem 'gibbon'
+gem 'google_drive'
+gem 'high_voltage'
+gem 'simple_form'
+
+group :development do
+gem 'better_errors'
+gem 'quiet_assets'
+end
