@@ -23,7 +23,6 @@ group :development do
 end
 group :production do
   gem 'pg'
-  gem 'rails_on_heroku'
+  gem 'rails_12factor'
   gem 'thin'
 end
-gem 'strong_parameters'
