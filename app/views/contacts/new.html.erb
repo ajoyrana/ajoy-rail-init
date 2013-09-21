@@ -1,0 +1,14 @@
+<% content_for :title do %>Amagi | Contact Us<% end %>
+<%= image_tag "logo.jpg" %>
+<div class="span4" style="width:100%; float:left; margin-top:20px;">
+
+<h3>Contact Us</h3>
+  <%= simple_form_for @contact do |form| %>
+  <%= form.error_notification %>
+  <%= form.input :name, autofocus: true %>
+  <%= form.input :email %>
+  <%= form.input :content, as: :text, :input_html => { :class => "span6" } %>
+  <%= form.button :submit, 'Submit', class: 'btn-primary' %>
+<% end %>
+
+</div>
